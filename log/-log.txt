@@ -1,0 +1,135 @@
+2021-12-07 09:22:25 INFO  BasePage:29 - Android testi başlıyor
+2021-12-07 09:22:46 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:22:46 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 09:22:46 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/tv_startShoppingStore]
+2021-12-07 09:22:49 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:22:49 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/tv_startShoppingStore adlı elemente tıklanıyor
+2021-12-07 09:22:52 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:22:52 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 09:22:52 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/iv]
+2021-12-07 09:22:55 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:22:55 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/nav_categories adlı elemente tıklanıyor
+2021-12-07 09:22:55 INFO  BasePage:44 - Sayfada olup olmadığımız kontrol ediliyor.
+2021-12-07 09:23:00 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:23:01 INFO  BasePage:50 - //*[@text='Kadın'] tıklanıyor
+2021-12-07 09:23:01 INFO  BasePage:50 - //*[@text='Pantolon'] tıklanıyor
+2021-12-07 09:23:04 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:23:04 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 09:23:07 INFO  BasePage:63 - scroll işlemi bitti
+2021-12-07 09:23:10 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:23:10 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 09:23:12 INFO  BasePage:63 - scroll işlemi bitti
+2021-12-07 09:23:15 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 09:23:15 INFO  BasePage:68 - Random ürün seçiliyor
+2021-12-07 09:23:15 INFO  BasePage:72 - Random seçilen ürün İkoll Kadın Pantolon 25680
+2021-12-07 09:23:15 INFO  BasePage:73 - Ürünün detay sayfası açılıyor
+2021-12-07 09:23:16 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 09:23:17 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/relLayAddCartBtn]
+2021-12-07 09:23:17 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/imgAddFav adlı elemente tıklanıyor
+2021-12-07 09:23:17 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 09:23:18 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/btnLogin]
+2021-12-07 09:23:18 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 09:23:18 INFO  BasePage:81 - denemeDeğeri yazıldı
+2021-12-07 09:23:18 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 09:23:19 INFO  BasePage:81 - denemeDeğeri yazıldı
+2021-12-07 09:23:20 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/ivBack adlı elemente tıklanıyor
+2021-12-07 09:23:21 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/ivBack adlı elemente tıklanıyor
+2021-12-07 09:23:21 INFO  BasePage:68 - Random ürün seçiliyor
+2021-12-07 09:23:21 INFO  BasePage:72 - Random seçilen ürün İkoll Kadın Pantolon 25680
+2021-12-07 09:23:21 INFO  BasePage:73 - Ürünün detay sayfası açılıyor
+2021-12-07 09:23:25 INFO  BasePage:22 - 2 saniye bekliyor
+2021-12-07 09:23:25 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/relLayAddCartBtn adlı elemente tıklanıyor
+2021-12-07 13:17:07 INFO  BasePage:29 - Android testi başlıyor
+2021-12-07 13:17:34 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:34 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:17:34 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/tv_startShoppingStore]
+2021-12-07 13:17:37 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:38 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/tv_startShoppingStore adlı elemente tıklanıyor
+2021-12-07 13:17:41 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:41 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:17:41 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/iv]
+2021-12-07 13:17:44 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:45 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/nav_categories adlı elemente tıklanıyor
+2021-12-07 13:17:48 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:48 INFO  BasePage:44 - Sayfada olup olmadığımız kontrol ediliyor.
+2021-12-07 13:17:52 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:52 INFO  BasePage:50 - //*[@text='Kadın'] tıklanıyor
+2021-12-07 13:17:55 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:56 INFO  BasePage:50 - //*[@text='Pantolon'] tıklanıyor
+2021-12-07 13:17:59 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:17:59 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 13:18:01 INFO  BasePage:63 - scroll işlemi bitti
+2021-12-07 13:18:04 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:18:04 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 13:18:06 INFO  BasePage:63 - scroll işlemi bitti
+2021-12-07 13:18:09 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:18:09 INFO  BasePage:68 - Random ürün seçiliyor
+2021-12-07 13:18:09 INFO  BasePage:72 - Random seçilen ürün Defacto Kadın Pantolon V8910AZ
+2021-12-07 13:18:09 INFO  BasePage:73 - Ürünün detay sayfası açılıyor
+2021-12-07 13:18:13 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:18:13 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:18:14 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/relLayAddCartBtn]
+2021-12-07 13:18:17 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:18:17 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/imgAddFav adlı elemente tıklanıyor
+2021-12-07 13:18:20 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:18:20 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:18:21 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/btnLogin]
+2021-12-07 13:18:21 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 13:18:21 INFO  BasePage:81 - denemeDeğeri yazıldı
+2021-12-07 13:18:21 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 13:18:21 INFO  BasePage:81 - denemeDeğeri yazıldı
+2021-12-07 13:18:23 INFO  BasePage:22 - 2 saniye bekliyor
+2021-12-07 13:18:24 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/ivBack adlı elemente tıklanıyor
+2021-12-07 13:18:26 INFO  BasePage:22 - 2 saniye bekliyor
+2021-12-07 13:18:59 INFO  BasePage:29 - Android testi başlıyor
+2021-12-07 13:19:14 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:19:14 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:19:47 INFO  BasePage:29 - Android testi başlıyor
+2021-12-07 13:20:03 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:03 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:20:03 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/tv_startShoppingStore]
+2021-12-07 13:20:06 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:06 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/tv_startShoppingStore adlı elemente tıklanıyor
+2021-12-07 13:20:09 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:09 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:20:10 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/iv]
+2021-12-07 13:20:13 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:14 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/nav_categories adlı elemente tıklanıyor
+2021-12-07 13:20:17 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:17 INFO  BasePage:44 - Sayfada olup olmadığımız kontrol ediliyor.
+2021-12-07 13:20:20 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:21 INFO  BasePage:50 - //*[@text='Kadın'] tıklanıyor
+2021-12-07 13:20:24 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:24 INFO  BasePage:50 - //*[@text='Pantolon'] tıklanıyor
+2021-12-07 13:20:27 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:27 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 13:20:29 INFO  BasePage:63 - scroll işlemi bitti
+2021-12-07 13:20:32 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:32 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 13:20:35 INFO  BasePage:63 - scroll işlemi bitti
+2021-12-07 13:20:38 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:38 INFO  BasePage:68 - Random ürün seçiliyor
+2021-12-07 13:20:38 INFO  BasePage:72 - Random seçilen ürün Defacto Kadın Pantolon V8910AZ
+2021-12-07 13:20:38 INFO  BasePage:73 - Ürünün detay sayfası açılıyor
+2021-12-07 13:20:41 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:41 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:20:41 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/relLayAddCartBtn]
+2021-12-07 13:20:44 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:45 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/imgAddFav adlı elemente tıklanıyor
+2021-12-07 13:20:48 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:48 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:20:48 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/btnLogin]
+2021-12-07 13:20:48 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 13:20:48 INFO  BasePage:81 - denemeDeğeri yazıldı
+2021-12-07 13:20:48 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 13:20:49 INFO  BasePage:81 - denemeDeğeri yazıldı
+2021-12-07 13:20:51 INFO  BasePage:22 - 2 saniye bekliyor
+2021-12-07 13:20:51 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/ivBack adlı elemente tıklanıyor
+2021-12-07 13:20:53 INFO  BasePage:22 - 2 saniye bekliyor
+2021-12-07 13:20:54 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/ivBack adlı elemente tıklanıyor
+2021-12-07 13:20:57 INFO  BasePage:22 - 3 saniye bekliyor
+2021-12-07 13:20:57 INFO  BasePage:68 - Random ürün seçiliyor
+2021-12-07 13:20:57 INFO  BasePage:72 - Random seçilen ürün Defacto Kadın Pantolon V8910AZ
+2021-12-07 13:20:57 INFO  BasePage:73 - Ürünün detay sayfası açılıyor
+2021-12-07 13:21:00 INFO  BasePage:22 - 2 saniye bekliyor
+2021-12-07 13:21:00 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/relLayAddCartBtn adlı elemente tıklanıyor

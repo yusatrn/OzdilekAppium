@@ -1,0 +1,123 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1059milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1059"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49894"}
+{"logLevel":"info","message":"Listening on port:49894"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.randomProduct' and 'org.example.BasePage.randomProduct'"}
+{"logLevel":"debug","message":"Found {} Random ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.waitForsecond' and 'org.example.BasePage.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.scroll' and 'org.example.BasePage.scroll'"}
+{"logLevel":"debug","message":"Found Scroll Yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.elementClick' and 'org.example.BasePage.elementClick'"}
+{"logLevel":"debug","message":"Found {} tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.xpathControl' and 'org.example.BasePage.xpathControl'"}
+{"logLevel":"debug","message":"Found {} xpath kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.idControl' and 'org.example.BasePage.idControl'"}
+{"logLevel":"debug","message":"Found {} id kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.textControl' and 'org.example.BasePage.textControl'"}
+{"logLevel":"debug","message":"Found {} id'li element {} text değerini içeridiğini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.xpathClick' and 'org.example.BasePage.xpathClick'"}
+{"logLevel":"debug","message":"Found {} xpath tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.sendKeysbyid' and 'org.example.BasePage.sendKeysbyid'"}
+{"logLevel":"debug","message":"Found {} id'li elemente {} text değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} tıkla : public void elementClick(String selectorid)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForsecond(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath kontrol : public void xpathControl(String selectorid)"}
+{"logLevel":"debug","message":"\t{} id'li elemente {} text değerini yaz : public void sendKeysbyid(String id, String text)"}
+{"logLevel":"debug","message":"\tScroll Yap : public void scroll()"}
+{"logLevel":"debug","message":"\t{} Random ürün seç : public void randomProduct(String xpath)"}
+{"logLevel":"debug","message":"\t{} id'li element {} text değerini içeridiğini kontrol et : public void textControl(String key, String keyword)"}
+{"logLevel":"debug","message":"\t{} xpath tıkla : public void xpathClick(String xpath)"}
+{"logLevel":"debug","message":"\t{} id kontrol : public void idControl(String key)"}
+2021-12-07 13:17:07 INFO  BasePage:29 - Android testi başlıyor
+Ara 07, 2021 1:17:31 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:34 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} id kontrol' using 'class org.example.BasePage.idControl"}
+2021-12-07 13:17:34 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:17:34 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/tv_startShoppingStore]
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:37 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} tıkla' using 'class org.example.BasePage.elementClick"}
+2021-12-07 13:17:38 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/tv_startShoppingStore adlı elemente tıklanıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:41 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} id kontrol' using 'class org.example.BasePage.idControl"}
+2021-12-07 13:17:41 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:17:41 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/iv]
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:44 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} tıkla' using 'class org.example.BasePage.elementClick"}
+2021-12-07 13:17:45 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/nav_categories adlı elemente tıklanıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:48 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} xpath kontrol' using 'class org.example.BasePage.xpathControl"}
+2021-12-07 13:17:48 INFO  BasePage:44 - Sayfada olup olmadığımız kontrol ediliyor.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:52 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} xpath tıkla' using 'class org.example.BasePage.xpathClick"}
+2021-12-07 13:17:52 INFO  BasePage:50 - //*[@text='Kadın'] tıklanıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:55 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} xpath tıkla' using 'class org.example.BasePage.xpathClick"}
+2021-12-07 13:17:56 INFO  BasePage:50 - //*[@text='Pantolon'] tıklanıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:17:59 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing 'Scroll Yap' using 'class org.example.BasePage.scroll"}
+2021-12-07 13:17:59 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 13:18:01 INFO  BasePage:63 - scroll işlemi bitti
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:04 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing 'Scroll Yap' using 'class org.example.BasePage.scroll"}
+2021-12-07 13:18:04 INFO  BasePage:55 - scroll yapılıyor
+2021-12-07 13:18:06 INFO  BasePage:63 - scroll işlemi bitti
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:09 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} Random ürün seç' using 'class org.example.BasePage.randomProduct"}
+2021-12-07 13:18:09 INFO  BasePage:68 - Random ürün seçiliyor
+2021-12-07 13:18:09 INFO  BasePage:72 - Random seçilen ürün Defacto Kadın Pantolon V8910AZ
+2021-12-07 13:18:09 INFO  BasePage:73 - Ürünün detay sayfası açılıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:13 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} id kontrol' using 'class org.example.BasePage.idControl"}
+2021-12-07 13:18:13 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:18:14 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/relLayAddCartBtn]
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:17 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} tıkla' using 'class org.example.BasePage.elementClick"}
+2021-12-07 13:18:17 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/imgAddFav adlı elemente tıklanıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:20 INFO  BasePage:22 - 3 saniye bekliyor
+3saniye bekle{"logLevel":"debug","message":"Executing '{} id kontrol' using 'class org.example.BasePage.idControl"}
+2021-12-07 13:18:20 INFO  BasePage:38 - Sayfa kontrolü yapılıyor
+2021-12-07 13:18:21 INFO  BasePage:40 - [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, databaseEnabled=false, desired={platformName=android, appActivity=com.ozdilek.ozdilekteyim.MainActivity, appPackage=com.ozdilek.ozdilekteyim, deviceName=RF8N21BA2QX, newCommandTimeout=3000}, deviceApiLevel=30, deviceManufacturer=samsung, deviceModel=SM-G770F, deviceName=RF8N21BA2QX, deviceScreenDensity=420, deviceScreenSize=1080x2400, deviceUDID=RF8N21BA2QX, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=11, statBarHeight=90, takesScreenshot=true, viewportRect={left=0, top=90, width=1080, height=2091}, warnings={}, webStorageEnabled=false}] -> id: com.ozdilek.ozdilekteyim:id/btnLogin]
+{"logLevel":"debug","message":"Executing '{} id'li elemente {} text değerini yaz' using 'class org.example.BasePage.sendKeysbyid"}
+2021-12-07 13:18:21 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 13:18:21 INFO  BasePage:81 - denemeDeğeri yazıldı
+{"logLevel":"debug","message":"Executing '{} id'li elemente {} text değerini yaz' using 'class org.example.BasePage.sendKeysbyid"}
+2021-12-07 13:18:21 INFO  BasePage:79 - Deper yazılmaya başlıyor
+2021-12-07 13:18:21 INFO  BasePage:81 - denemeDeğeri yazıldı
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:23 INFO  BasePage:22 - 2 saniye bekliyor
+2saniye bekle{"logLevel":"debug","message":"Executing '{} tıkla' using 'class org.example.BasePage.elementClick"}
+2021-12-07 13:18:24 INFO  BasePage:28 - com.ozdilek.ozdilekteyim:id/ivBack adlı elemente tıklanıyor
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.BasePage.waitForsecond"}
+2021-12-07 13:18:26 INFO  BasePage:22 - 2 saniye bekliyor
+2saniye bekle{"logLevel":"debug","message":"Executing '{} tıkla' using 'class org.example.BasePage.elementClick"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

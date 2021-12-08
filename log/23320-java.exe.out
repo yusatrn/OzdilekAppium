@@ -1,0 +1,47 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1411milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1411"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49327"}
+{"logLevel":"info","message":"Listening on port:49327"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.randomProduct' and 'org.example.BasePage.randomProduct'"}
+{"logLevel":"debug","message":"Found {} Random ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.waitForsecond' and 'org.example.BasePage.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.scroll' and 'org.example.BasePage.scroll'"}
+{"logLevel":"debug","message":"Found Scroll Yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.elementClick' and 'org.example.BasePage.elementClick'"}
+{"logLevel":"debug","message":"Found {} tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.xpathControl' and 'org.example.BasePage.xpathControl'"}
+{"logLevel":"debug","message":"Found {} xpath kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.idControl' and 'org.example.BasePage.idControl'"}
+{"logLevel":"debug","message":"Found {} id kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.textControl' and 'org.example.BasePage.textControl'"}
+{"logLevel":"debug","message":"Found {} id'li element {} text değerini içeridiğini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.xpathClick' and 'org.example.BasePage.xpathClick'"}
+{"logLevel":"debug","message":"Found {} xpath tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.BasePage.sendKeysbyid' and 'org.example.BasePage.sendKeysbyid'"}
+{"logLevel":"debug","message":"Found {} id'li elemente {} text değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} tıkla : public void elementClick(String selectorid)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForsecond(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath kontrol : public void xpathControl(String selectorid)"}
+{"logLevel":"debug","message":"\t{} id'li elemente {} text değerini yaz : public void sendKeysbyid(String id, String text)"}
+{"logLevel":"debug","message":"\tScroll Yap : public void scroll()"}
+{"logLevel":"debug","message":"\t{} Random ürün seç : public void randomProduct(String xpath)"}
+{"logLevel":"debug","message":"\t{} id'li element {} text değerini içeridiğini kontrol et : public void textControl(String key, String keyword)"}
+{"logLevel":"debug","message":"\t{} xpath tıkla : public void xpathClick(String xpath)"}
+{"logLevel":"debug","message":"\t{} id kontrol : public void idControl(String key)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,51 @@
+Created by testinium on 7.12.2021
+
+This is a concept file with following syntax for each concept.
+# Uygulama Açılış Kontrol
+* "3" saniye bekle
+* "Login" id kontrol
+# Alışverişe Başla Butonuna Bas
+* "3" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" tıkla
+# Alışveriş Sayfa Kontrol
+* "3" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/iv" id kontrol
+# Kategori Sayfasına Git
+* "3" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" tıkla
+# Kategori Sayfa Kontrol
+* "3" saniye bekle
+* "//android.widget.LinearLayout[@content-desc='Kategoriler']" xpath kontrol
+# Kadın Kategorisine Git
+* "3" saniye bekle
+* "//*[@text='Kadın']" xpath tıkla
+# Pantolon Kategorisine Git
+* "3" saniye bekle
+* "//*[@text='Pantolon']" xpath tıkla
+# Scroll Yapılıyor
+* "3" saniye bekle
+* Scroll Yap
+# Random Ürün Seç
+* "3" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/textView']" Random ürün seç
+# Detay Sayfası Kontrol
+* "3" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id kontrol
+# Favorilere Ekle Tıklanır
+* "3" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/imgAddFav" tıkla
+# Login Sayfası Kontrol
+* "3" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/btnLogin" id kontrol
+# Kullanıcı Adı Yaz
+* "com.ozdilek.ozdilekteyim:id/etEposta" id'li elemente "deneme" text değerini yaz
+# Şifre Yaz
+* "com.ozdilek.ozdilekteyim:id/etPassword" id'li elemente "deneme" text değerini yaz
+# Geri Dön
+* "2" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" tıkla
+# Sepete Ekle
+* "2" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" tıkla
+
+
